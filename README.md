@@ -7,7 +7,7 @@ python code for 915hw
 
 
 内容1：作出⼤大尺度的温度和柱密度分布图
-下载herschel 的五个波段数据（70，160， 250，350，500um）并做逐像素的SED拟 合，得出温度和柱密度分布图 下载区域⼤大⼩小为5个⻆角分
+下载herschel 的五个波段数据（70，160， 250，350，500um）并做逐像素的SED拟 合，得出温度和柱密度分布图 下载区域⼤大⼩小为10个角分
 
 1.download herschel and others data.
   https://irsa.ipac.caltech.edu/irsaviewer/
@@ -20,6 +20,11 @@ python code for 915hw
   
 4.SED fitter
   https://hi-gal-sed-fitter.readthedocs.io/en/latest/higal_sedfitter/index.html#example  #example
+  https://github.com/yuanjinghua/greyBody_massVersion/blob/master/greyBody_massVersion.py #greyBody_massVersion
   https://github.com/XFengwei/HMSCs_cat/blob/master/scripts/sedFitting/008sedFitting.py  #by fengwei
   
 5.
+
+
+内容2：求出7M数据中clump的质量，柱密度，以及尘埃温度
+#SED fitter可得clump的质量、柱密度、尘埃温度
